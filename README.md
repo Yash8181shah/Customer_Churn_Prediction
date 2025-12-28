@@ -41,3 +41,33 @@ Rather than focusing only on model accuracy, this project emphasizes:
 
 ## Project Structure
 
+Customer-Churn-Prediction/
+│
+├── app/
+│ └── app.py # Streamlit application
+│
+├── models/
+│ ├── churn_prediction_model.pkl
+│ ├── feature_columns.pkl
+│ └── scaler.pkl
+│
+├── data/
+│ ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│ ├── cleaned_telco_churn.csv
+│ ├── X_features.csv
+│ └── y_target.csv
+│
+├── notebooks/
+│ ├── 01_dataset_understanding.ipynb
+│ ├── 02_data_cleaning_preprocessing.ipynb
+│ ├── 03_exploratory_data_analysis.ipynb
+│ ├── 04_feature_engineering.ipynb
+│ ├── 05_model_building.ipynb
+│ ├── 06_model_evaluation.ipynb
+│ ├── 07_model_explainability.ipynb
+│ ├── 07b_optional_shap_explainability.ipynb
+│ ├── 08_retention_strategy.ipynb
+│ └── 09_model_saving.ipynb
+│
+├── requirements.txt
+└── README.md
