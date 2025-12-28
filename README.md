@@ -38,6 +38,11 @@ Rather than focusing only on model accuracy, this project emphasizes:
 - **Version Control:** GitHub  
 
 ---
+## Live Application
+
+The application is deployed on Streamlit Cloud and can be accessed here:
+
+https://customerchurnprediction-mbjeylkcqstq5tjbpao2jm.streamlit.app/#paperless-billing-severity-low-digital-billing-users-are-often-more-flexible-to-switch
 
 ## Project Structure
 ```
@@ -72,5 +77,6 @@ Customer-Churn-Prediction/
 ├── requirements.txt
 └── README.md
 ```
+
 
 
