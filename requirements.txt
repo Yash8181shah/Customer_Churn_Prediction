@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy<2.3
+scikit-learn
+joblib
+#.\.venv\Scripts\activate to activate virtual environment on Windows 
